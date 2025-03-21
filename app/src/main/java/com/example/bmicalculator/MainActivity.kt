@@ -79,7 +79,8 @@ class MainActivity : AppCompatActivity() {
             binding.resulttext.text = "BMI: $bmiResult\nCategory: $bmiCategory\nInfo: $Suggestion"
         }
         else{
-            binding.resulttext.text = "Invalid "
+            binding.resulttext.text = "Invalid inputs"
+
         }
 
 
